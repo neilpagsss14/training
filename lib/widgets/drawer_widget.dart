@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:welcome_back/screens/home_page_screen.dart';
 import 'package:welcome_back/widgets/text_widget.dart';
@@ -93,8 +92,8 @@ class DrawerWidget extends StatelessWidget {
                 color: Colors.grey,
               ),
               onTap: () {
-                Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(builder: (context) => Home_Page_Screen()));
+                Navigator.of(context).pushReplacement(MaterialPageRoute(
+                    builder: (context) => const HomePageScreen()));
               },
             ),
             ListTile(
@@ -107,8 +106,8 @@ class DrawerWidget extends StatelessWidget {
                 color: Colors.grey,
               ),
               onTap: () {
-                Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(builder: (context) => Home_Page_Screen()));
+                Navigator.of(context).pushReplacement(MaterialPageRoute(
+                    builder: (context) => const HomePageScreen()));
               },
             ),
             ListTile(
@@ -121,8 +120,8 @@ class DrawerWidget extends StatelessWidget {
                 color: Colors.grey,
               ),
               onTap: () {
-                Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(builder: (context) => Home_Page_Screen()));
+                Navigator.of(context).pushReplacement(MaterialPageRoute(
+                    builder: (context) => const HomePageScreen()));
               },
             ),
             ListTile(
@@ -135,8 +134,8 @@ class DrawerWidget extends StatelessWidget {
                 color: Colors.grey,
               ),
               onTap: () {
-                Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(builder: (context) => Home_Page_Screen()));
+                Navigator.of(context).pushReplacement(MaterialPageRoute(
+                    builder: (context) => const HomePageScreen()));
               },
             ),
             ListTile(
@@ -175,7 +174,8 @@ class DrawerWidget extends StatelessWidget {
                               onPressed: () {
                                 Navigator.of(context).pushReplacement(
                                     MaterialPageRoute(
-                                        builder: (context) => Home_Page_Screen()));
+                                        builder: (context) =>
+                                            const HomePageScreen()));
                               },
                               child: const Text(
                                 'Continue',

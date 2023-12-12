@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:welcome_back/screens/video_screen.dart';
 import 'package:welcome_back/widgets/text_widget.dart';
 
-class Home_Page_Screen extends StatefulWidget {
-  const Home_Page_Screen({super.key});
+class HomePageScreen extends StatefulWidget {
+  const HomePageScreen({super.key});
 
   @override
-  State<Home_Page_Screen> createState() => _Home_Page_ScreenState();
+  State<HomePageScreen> createState() => _HomePageScreenState();
 }
 
-class _Home_Page_ScreenState extends State<Home_Page_Screen> {
+class _HomePageScreenState extends State<HomePageScreen> {
   List info = [];
   _initData() {
     DefaultAssetBundle.of(context).loadString("").then((value) {
@@ -79,8 +79,7 @@ class _Home_Page_ScreenState extends State<Home_Page_Screen> {
                           onPressed: () {
                             Navigator.of(context).pushReplacement(
                                 MaterialPageRoute(
-                                    builder: (context) =>
-                                        const Video_Screen()));
+                                    builder: (context) => const VideoScreen()));
                           },
                           child: const Text(
                             'Details',
