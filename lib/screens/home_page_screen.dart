@@ -215,7 +215,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
                             )),
                           ),
                           Container(
-                            width: double.maxFinite,
+                            width: double.infinity,
                             // color: Colors.redAccent.withOpacity(.2),
                             height: 100,
                             margin: const EdgeInsets.only(left: 170, top: 40),
