@@ -179,7 +179,7 @@ class _VideoScreenState extends State<VideoScreen> {
                               //   color: Colors.black,
                               // ),
                               const Text(
-                                '3 sets',
+                                '4 sets',
                                 style: TextStyle(
                                     fontWeight: FontWeight.normal,
                                     fontSize: 20),

@@ -32,25 +32,27 @@ class _SplashScreenState extends State<SplashScreen>
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        width: double.infinity,
-        decoration: const BoxDecoration(
-          color: Colors.white,
-        ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset(
-              'assets/images/health-app.png',
-              height: 150,
-            ),
-            const SizedBox(
-              height: 10,
-            ),
-            TextBold(
-                text: 'Fitness App', fontSize: 38, color: Colors.amberAccent)
-          ],
+    return SafeArea(
+      child: Scaffold(
+        body: Container(
+          width: double.infinity,
+          decoration: const BoxDecoration(
+            color: Colors.white,
+          ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.asset(
+                'assets/images/health-app.png',
+                height: 150,
+              ),
+              const SizedBox(
+                height: 10,
+              ),
+              TextBold(
+                  text: 'Fitness App', fontSize: 38, color: Colors.amberAccent)
+            ],
+          ),
         ),
       ),
     );
